@@ -1,0 +1,63 @@
+.task_ip {
+    margin-top: 30px !important;
+    width: 500px;
+    border-radius: 7px !important;
+    overflow: hidden;
+    border: 0.5px rgb(210, 208, 208) solid;
+    margin: auto;
+    padding: 3px 10px;
+}
+
+.task_inp {
+    border: none;
+    outline: none;
+    height: 50px;
+}
+
+.text-area {
+    border: none;
+    outline: none;
+    max-height: 50px;
+}
+
+.ms-autos {
+    display: block;
+    margin-left: auto;
+}
+
+.hidden_items {
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
+.tasks {
+    height: 200px;
+    width: 300px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.desc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.notify{
+    position: absolute;
+    right: 50px;
+    top: 5px;
+    background-color: rgb(225, 159, 172);
+    display: flex;
+    width: 350px;
+    align-items: center;
+    display: none;
+} 
+
